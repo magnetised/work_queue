@@ -12,7 +12,7 @@ defmodule WorkQueue.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :exlibris]]
   end
 
   defp deps do
